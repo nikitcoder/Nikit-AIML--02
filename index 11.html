@@ -1,0 +1,153 @@
+
+
+
+HTML File (index.html)
+Html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cart - Mobile Phone</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="cart-container">
+        <h1>Shopping Cart</h1>
+
+        <div class="cart-item">
+            <img src="https://pixabay.com/photos/iphone-smartphone-phone-476236/"" alt="Mobile Phone" class="product-image">
+            <div class="product-details">
+                <h2>Smartphone XYZ</h2>
+                <p class="description">6.5" Display, 128GB Storage, 48MP Camera</p>
+                <p class="price">₹24,999</p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+External CSS File (styles.css)
+Css/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cart container */
+.cart-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.cart-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Cart item layout */
+.cart-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+/* Product image */
+.product-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* Product details */
+.product-details {
+    flex: 1;
+}
+
+.product-details h2 {
+    margin: 0;
+    color: #222;
+}
+
+.description {
+    color: #666;
+    font-size: 14px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e63946;
+    margin: 10px 0;
+}
+
+/* Quantity input */
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+/* Add to cart button */
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product-image {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
+
+
+How to Use
+
+Save the HTML code as index.html.
+Save the CSS code as styles.css in the same folder.
+Place a mobile phone image named mobile.jpg in the same folder (or change the src in HTML to your image path).
+Open index.html in a browser.
+
+
+✅ Features:
+
+External CSS for clean separation of design and structure.
+Responsive layout for mobile and desktop.
+Styled product card with image, description, price, quantity selector, and button.
+Mobile-friendly design.
+
+
+If you want, I can extend this to include multiple products with a grid layout and a total price calculation using JavaScript so it behaves like a real cart.
+Do you want me to add that?
+
