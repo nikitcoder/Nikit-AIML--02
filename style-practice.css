@@ -1,0 +1,60 @@
+h2{
+    color:grey;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: dashed;
+    border-right-style: double;
+    border-left-color: lightblue;
+    animation: 3s linear 0s infinite running  myColorchange;
+    text-shadow: 2.5px 2.6px 6px darkblue;
+    box-shadow: 3.6px 4px 19px;
+}
+body{
+    background:gray ;
+     background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Free-download-Naruto-Backgrounds.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    color: rgb(65, 137, 131) ;
+    padding: 5px;
+    font-family:"Noto Sans Japanese",sans-serif ;
+    font-style: italic;
+    font-weight: 850;
+    text-decoration: cyan solid underline ;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+
+}  
+.fa-circle{
+    color:red;
+}
+
+@keyframes mySlidechange{
+    from{margin-left:100%;}
+    tp{margin-left:0%;}
+
+}
+@keyframes myColorchange{
+    0%{background-color:gray;}
+    20%{background-color:aqua;}
+    40%{background-color: skyblue ;}
+    60%{background-color:lightgreen;}
+    80%{background-color: darkblue;}
+    100%{background-color:black}
+}
+
+
+
+
+
+
+
+
+
+    
+
